@@ -25,14 +25,14 @@ spec.default_subspecs =  'RewardVideoAdAdapter'
 
 spec.subspec 'NativeAdAdapter' do |ss|
 
-  ss.dependency 'Google-Mobile-Ads-SDK', '~> 9.0'
+  ss.dependency 'Google-Mobile-Ads-SDK', '~> 10.0'
   ss.dependency  'MintegralAdSDK/NativeAd', '~> 7.1'
   ss.source_files = 'MintegralCustomEvent/MTGCommon/*.{h,m}','MintegralCustomEvent/MTGNativeAd/*.{h,m}'
 end
 
 spec.subspec 'InterstitialVideoAdAdapter' do |ss|
 
-  ss.dependency 'Google-Mobile-Ads-SDK', '~> 9.0'
+  ss.dependency 'Google-Mobile-Ads-SDK', '~> 10.0'
   ss.dependency 'MintegralAdSDK/InterstitialVideoAd', '~> 7.1'
   ss.source_files = 'MintegralCustomEvent/MTGCommon/*.{h,m}','MintegralCustomEvent/MTGInterstitialVideoAd/*.{h,m}'
 end
@@ -40,7 +40,7 @@ end
 
 spec.subspec 'RewardVideoAdAdapter' do |ss|
 
-  ss.dependency 'Google-Mobile-Ads-SDK', '~> 9.0'
+  ss.dependency 'Google-Mobile-Ads-SDK', '~> 10.0'
   ss.dependency 'MintegralAdSDK/RewardVideoAd', '~> 7.1'
   ss.source_files = 'MintegralCustomEvent/MTGCommon/*.{h,m}','MintegralCustomEvent/MTGRewardVideoAd/*.{h,m}'
 
@@ -49,7 +49,7 @@ end
 
 spec.subspec 'InterstitialAdAdapter' do |ss|
 
-  ss.dependency 'Google-Mobile-Ads-SDK', '~> 9.0'
+  ss.dependency 'Google-Mobile-Ads-SDK', '~> 10.0'
   ss.dependency 'MintegralAdSDK/NewInterstitialAd', '~>7.1'
   ss.source_files = 'MintegralCustomEvent/MTGCommon/*.{h,m}','MintegralCustomEvent/MTGNewInterstitialAd/*.{h,m}'
 end
@@ -57,7 +57,7 @@ end
 
 spec.subspec 'BannerAdAdapter' do |ss|
 
-  ss.dependency 'Google-Mobile-Ads-SDK', '~> 9.0'
+  ss.dependency 'Google-Mobile-Ads-SDK', '~> 10.0'
   ss.dependency 'MintegralAdSDK/BannerAd', '~> 7.1'
   ss.source_files = 'MintegralCustomEvent/MTGCommon/*.{h,m}','MintegralCustomEvent/MTGBannerAd/*.{h,m}'
 end
